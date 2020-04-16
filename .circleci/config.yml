@@ -25,5 +25,5 @@ jobs: # a collection of steps
             - vendor
       - run: php vendor/bin/phpunit
       
-      - codecov/upload:
-        file: coverage/*.json
+      #- codecov/upload:
+       # file: coverage/*.json
